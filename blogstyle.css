@@ -557,8 +557,8 @@ ul{
         display:inline-block;
         align-items: center;
         align-content: center;
-        padding-left: 50px;
-        padding-right: -10px;
+        padding-left: 30px;
+        padding-right: 0px;
         
     }
     .home-article
@@ -570,8 +570,8 @@ ul{
         font-family: 'Poppins';
         text-decoration: none;
         align-items: center;
-        margin-left: 30px;
-        margin-right: 10px;
+        margin-left: 25px;
+        margin-right: 25px;
         align-items: center;
         box-shadow:0 0 8px 8px rgb(204, 204, 204);
         border-radius: 8px;
@@ -580,6 +580,50 @@ ul{
     {
         width: 250px;
         height: 150px;
+    }
+    .home-article .cover 
+    {
+        width: 230px;
+        height: 150px;
+    }
+    .home-article-img
+    {
+        text-align: center;
+    }
+    .home-article .authorname
+    {
+        font-size: 15px;
+    }
+    .featured2
+    {
+        display: inline-block;
+        align-content: center;
+    }
+    .home-article2
+    {
+        display: flex ;
+        font-family: 'Poppins';
+        text-decoration: none;
+        padding-left: 10px;
+        margin-left: 10px;
+        padding-right: 10px;
+        margin-right: 10px;
+        margin-bottom: 30px;
+        align-items: center;
+       
+    }
+    .home-article2 .cover 
+    {
+        width: 160px;
+        height: 80px;
+    }
+    .home-article .home-article-content
+    {
+        padding: 10px;
+    }
+    .home-article2 .home-article-content
+    {
+        padding: 10px;
     }
 }
 /* ----------------------feature blog end----------------------------- */
